@@ -10,6 +10,12 @@ const StyledContainer = styled.div`
   justify-content: space-between;
   padding: ${themeCssVariables.spacing[3]};
   gap: ${themeCssVariables.spacing[3]};
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: ${themeCssVariables.border.color.strong};
+    background: ${themeCssVariables.background.primary};
+  }
 `;
 
 const StyledCommandContain = styled.div`
